@@ -71,12 +71,12 @@ function App() {
 
         <button style={{display: displayScientificOptions}} onClick={(e) => setInput(Math.sqrt(input).toFixed(4))} value="sqrt">
           {" "}
-          sqrt
+          &#8730;
         </button>
 
-        <button style={{display: displayScientificOptions}} onClick={(e) => setInput(input * input)} value="square">
+        <button style={{display: displayScientificOptions}} onClick={(e) => setInput((input * input).toFixed(4))} value="square">
           {" "}
-          square
+          &#13217;
         </button>
         <button
           onClick={(e) => {
